@@ -1,0 +1,49 @@
+body { /* font */
+    font-family: 'Trajan Pro', sans-serif;
+}
+
+.navbar { /* Header */
+    background-color: darkslategrey;
+}
+
+#header .nav .nav-link.active { /* Cor do botão 'Sobre a Loja' */
+    background-color: lightslategrey;
+    color: #fff;
+}
+
+#header .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover { /* Cor da letra dos Nav-items */
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+#Sobre , #Amuletos {
+    background-color: slategray
+}
+
+.card {
+    background-color: lightslategray;
+}
+
+aside {
+    background-color: darkslategray;
+}
+
+.text-colored {
+    color: #fff;
+}
+
+#contato button {
+    background-color: darkslategray;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
